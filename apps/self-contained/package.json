@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@sveltejs/adapter-cloudflare": "^2.3.2",
+    "@sveltejs/kit": "^1.22.6",
+    "svelte": "^4.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },

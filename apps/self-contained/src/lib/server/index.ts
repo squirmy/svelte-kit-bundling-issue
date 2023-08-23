@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkFrontmatter from 'remark-frontmatter'
