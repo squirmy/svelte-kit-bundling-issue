@@ -1,0 +1,10 @@
+{
+  "name": "testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "working": "pnpm --filter self-contained build",
+    "broken": "pnpm --filter uses-module build"
+  }
+}
